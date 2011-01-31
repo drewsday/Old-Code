@@ -1,0 +1,31 @@
+-rw-rw-r--    1 morris   morris       7484 Aug 20  2002 baseball.pl
+-rwxr-xr-x    1 morris   morris       3508 Aug 20  2002 color.pl
+-rw-rw-r--    1 morris   morris      20223 Feb  6  2002 comments.cgi
+-rw-rw-r--    1 morris   morris      17822 Feb  6  2002 comments_mod.cgi
+-rw-rw-r--    1 morris   morris      38886 Apr 15 18:37 divs041503.csv
+-rw-rw-r--    1 morris   morris      38890 Jan 20 00:47 divs.csv
+-rw-r--r--    1 morris   morris        295 Aug 20  2002 ebay.pl
+-rwxrwxr-x    1 morris   morris        213 Dec 20  2001 image.pl
+-rwxr-xr-x    1 morris   morris         59 Aug 20  2002 learnperl.pl
+-rwxr-xr-x    1 morris   morris       5696 Aug 20  2002 mirror_google.pl
+-rwxrwxr-x    1 morris   morris        629 May  1  2002 muon.bak
+-rwxrwxr-x    1 morris   morris        691 May  1  2002 muon.pl
+-rw-rw-r--    1 morris   morris        822 Nov  2  2001 numconv.pl
+-rwxr-xr-x    1 morris   morris        943 Aug 20  2002 parser1.pl
+-rwxr-xr-x    1 morris   morris        486 Aug 20  2002 parser.pl
+-rw-r--r--    1 morris   morris       2991 Aug 20  2002 pref.pl
+-rw-rw-r--    1 morris   morris        304 Jan 19 23:00 report.csv
+-rwxr-xr-x    1 morris   morris        316 Aug 20  2002 simpget.pl
+-rw-rw-r--    1 morris   morris        425 Jan 15 22:56 stock2.pl
+-rwxrwxr-x    1 morris   morris        450 Jan 19 22:55 stock3.pl
+-rw-rw-r--    1 morris   morris        207 Jan 16 16:53 stock.pl
+-rw-rw-r--    1 morris   morris        120 Mar 29  2001 tal.pl
+-rw-rw-r--    1 morris   morris         97 Jan 19 22:39 test.csv
+-rwxr-xr-x    1 morris   morris        220 Jan 27  2002 test.pl
+-rwxr-xr-x    1 morris   morris      38544 Aug 20  2002 wgrab.pl
+-rw-rw-r--    1 morris   morris      44103 Mar 30  2001 WWWAssign.pl
+-rwxr-xr-x    1 morris   morris        980 Aug 20  2002 yahoo.pl
+
+stocktemp:
+total 56
+-rw-rw-r--    1 morris   morris      50033 Jan 15 17:19 Aindex.html

@@ -1,0 +1,41 @@
+From maney@pobox.com Wed Jan 29 20:49:36 2003
+Date: Wed, 29 Jan 2003 19:57:14 -0600
+From: Martin Maney <maney@pobox.com>
+Reply-To: luni@luni.org
+To: luni@luni.org
+Subject: Re: [LUNI] program structure for a non-programmer.
+
+On Wed, Jan 29, 2003 at 04:58:42PM -0600, Andrew Morrison wrote:
+> What I have is a loop that does A,B, and C for x iterations.
+> 
+> What I want is a loop that does A,B and C for x times, then does A, B,
+> C, and D x times, then does A, B, C, D, and E for x times....until it
+> does A through Z x times.   
+
+Assuming you have defined functions for each of your "things to do",
+which I will refer to as A(), B(), ...
+
+todo_list = (A, B, C, .... Z)
+for i in range(3, len(todo_list) + 1):
+    for j in range(x):
+        for k in range(i):
+            todo_list[k]()
+
+does x reps of A,B,C
+then x reps of A, B, C, D
+then ...
+
+I think that's right.  It's a weird sort of a loop to be doing...
+
+The change to make it do, eg., x reps of A, x reps of B, x reps of C, ...
+is left as an exercise.  :-)
+
+-- 
+If there is a lesson to be learnt from Adobe's eBook
+fiasco, it is that litigation is no substitute for
+well-designed software.  -- The Economist
+
+______________________________________________________________________
+Linux Users Of Northern Illinois - Technical Discussion 
+luni@luni.org
+http://luni.org/mailman/listinfo/luni

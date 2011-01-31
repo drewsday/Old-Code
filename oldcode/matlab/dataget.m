@@ -1,0 +1,7 @@
+% test
+[X,Y] = ginput
+Cdata=get(get(gca,'Children'),'Cdata');
+
+for i=1:size(X,1)
+    value(i)=Cdata(round(Y(i)),round(X(i)))
+end
